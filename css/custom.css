@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Libre Baskerville Bold'), local('LibreBaskerville-Bold'), url(../fonts/libre-baskerville.woff) format('woff');
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+    font-size:10rem;
+}
+
+h2 {
+    font-size:7rem;
+}
+
+p {
+    font-size:3.5rem;
+}
+
+code {
+    font-family:inherit;
+    font-size:1.8rem;
+    color: #4A4A4A;
+    display: block;
+    font-style: italic;
+    padding: 2rem 0;
+    text-align: right;
+}
+
+p {
+    width:60%;
+}
+
+.slide-image {
+    padding:4rem 0 24rem 0;
+}
+.slide-image p {
+    margin:0 auto;
+}
+.slide-image p img {
+    height:80%;
+}
+
+.home {
+    padding:8rem 0;
+}
+
+.home h1,
+.home h2,
+.home h3 {
+    line-height:1.5;
+    margin:5px auto;
+}
+
+.home h1 {
+    font-size:5rem;
+}
+
+.home h2 {
+    font-size:3rem;
+}
+
+.home h3 {
+    font-size:3rem;
+}
+
+.home h4 {
+    font-size:4rem;
+}
+
+.home h5 {
+    font-size:3rem;
+}
+
+.home p {
+    font-weight:bold;
+    line-height:1;
+}
