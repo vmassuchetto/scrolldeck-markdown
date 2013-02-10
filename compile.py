@@ -21,9 +21,9 @@ content = content.read()
 content = markdown.markdown(content)
 
 rules = [
-    ['<h([0-9])>(.*?)</h([0-9])>', '<div class="slide"><h\\1 class="animate-in" data-animation="fly-in-left">\\2</h\\3></div>'],
-    ['<p><img(.*?)</p>', '<div class="slide slide-image"><p class="animate-in"><img\\1</p></div>'],
-    ['<p>(.*?)</p>', '<div class="slide"><p class="animate-in">\\1</p></div>']
+    ['<h([0-9])>(.*?)</h([0-9])>', '<div class="slide"><div class="slide-inner"><h\\1 class="animate-in" data-animation="fly-in-left">\\2</h\\3></div></div>'],
+    ['<p><img(.*?)</p>', '<div class="slide slide-image"><div class="slide-inner"><p class="animate-in"><img\\1</p></div></div>'],
+    ['<p>(.*?)</p>', '<div class="slide"><div class="slide-inner"><p class="animate-in">\\1</p></div></div>']
 ]
 
 for pattern, replace in rules:

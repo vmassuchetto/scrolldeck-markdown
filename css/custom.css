@@ -30,11 +30,18 @@ code {
     padding: 2rem 0;
     text-align: right;
 }
-
-p {
-    width:60%;
+.slide {
+    display:table;
+    vertical-align:middle;
+    overflow:hidden;
+    width:100%;
+    padding:0;
+    margin:0;
 }
-
+.slide-inner {
+    display:table-cell;
+    vertical-align:middle;
+}
 .slide-image {
     padding:4rem 0 24rem 0;
 }
@@ -45,10 +52,6 @@ p {
     height:80%;
 }
 
-.home {
-    padding:8rem 0;
-}
-
 .home h1,
 .home h2,
 .home h3 {
@@ -57,7 +60,7 @@ p {
 }
 
 .home h1 {
-    font-size:5rem;
+    font-size:4.5rem;
 }
 
 .home h2 {

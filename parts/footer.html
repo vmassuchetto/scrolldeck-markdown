@@ -1,12 +1,19 @@
 <script type="text/javascript">
     $(document).ready(function() {
-      var deck = new $.scrolldeck({
-        buttons: '.nav-button',
-        slides: '.slide',
-        duration: 300,
-        easing: 'easeInOutExpo',
-    	offset: 0
-      });
+
+        var h = $(window).height();
+        $('.slide').each(function(){
+            $(this).height(h);
+        });
+
+        var deck = new $.scrolldeck({
+            buttons: '.nav-button',
+            slides: '.slide',
+            duration: 300,
+            easing: 'easeInOutExpo',
+    	    offset: 0
+        });
+
     });
 </script>
 </body>
