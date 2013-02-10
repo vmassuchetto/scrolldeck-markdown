@@ -11,6 +11,9 @@ expressions in the `compile.py` file. The header, footer and CSS can me
 modified in the `parts` and `css` folder. The `$.scrolldeck` jQuery call can be
 modified in the `parts/footer.html` file.
 
+The first slider with bigger and centered texts is located in the
+`parts/header.html` file.
+
 A sample presentation is something like:
 
     # Main Section
